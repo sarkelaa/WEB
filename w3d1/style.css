@@ -1,0 +1,21 @@
+
+p {
+    background-color: yellow;
+    border: thick 5px;
+    padding:0; 
+    border: dashed red;
+    width: 300px;
+    margin: 0 20px 0 0;
+    display: inline-block;
+
+
+}
+
+.border1{
+border: solid green;
+width: 300px;
+
+}
+.border2{
+width: 200px;
+}

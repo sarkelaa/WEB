@@ -1,0 +1,11 @@
+h1 {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin: 50px 0 50px 0;
+    background-color: black;
+    color: violet;
+    font-family: monospace;
+    box-shadow: 5px 10px red;
+}
