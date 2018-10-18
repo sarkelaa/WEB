@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 70);
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 span {
+  color: goldenrod;
+}
+
+form {
+  margin: 100px auto;
+  background-color: rgb(224, 222, 222);
+  width: 400px;
+  padding: 40px;
+  border-radius: 15px 0;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 5px auto 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 6px;
+}
+
+#submit {
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+}

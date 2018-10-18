@@ -1,0 +1,51 @@
+#prvaUL {
+  list-style-type: circle;
+}
+
+#drugaUL {
+  list-style-type: square;
+}
+#prvaOL {
+  list-style-type: upper-alpha;
+}
+#drugaOL {
+  list-style-type: lower-roman;
+}
+#trecaUL {
+  list-style-image: url("http://www.lubd.com/wp-content/uploads/2016/08/Score-Star.png");
+}
+.imageList {
+  width: 200px;
+}
+#cetvrtaUL {
+  list-style-image: url("http://www.lubd.com/wp-content/uploads/2016/08/Score-Star.png");
+  list-style-position: inside;
+}
+table {
+  margin: 0px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: whitesmoke;
+}
+table > thead > tr {
+  background-color: red;
+}
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  color: white;
+}
+body {
+  background-color: rgb(225, 221, 226);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(233, 227, 227);
+}
+
+tbody tr:hover {
+  background-color: rgb(253, 231, 30);
+}
