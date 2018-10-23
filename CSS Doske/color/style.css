@@ -1,0 +1,42 @@
+.main {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+#first {
+  padding-top: 10px;
+  color: darkturquoise;
+  background-color: darkviolet;
+  opacity: 0.5;
+}
+
+#second {
+  padding-top: 10px;
+  color: rgb(0, 206, 209);
+  background-color: rgb(255, 140, 0, 0.5);
+}
+
+#third {
+  color: #00ced1;
+  background-color: #bdb76b;
+}
+
+.c1_column {
+  background-color: AliceBlue;
+}
+
+.c2_column {
+  background-color: Hotpink;
+}
+
+.c3_column {
+  background-color: blue;
+}
+
+.c4_column {
+  background-color: white;
+}
+
+.c5_column {
+  background-color: yellow;
+}

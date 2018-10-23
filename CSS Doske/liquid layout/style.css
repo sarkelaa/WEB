@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+#wrapper{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+    width: 60%;
+}
+img{
+    float: left;
+    width: 30%;
+    vertical-align: middle;
+    
+}
+#title {
+    float: left;
+    padding-top: 3%;
+}
+
+.clearFix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section:first-of-type{
+    width: 50%;
+    float: left;
+    padding: 2%;
+    clear: both;
+}
+section:last-of-type{
+    width: 50%;
+    border-left: 1px solid black;
+    float: left;
+    padding: 2%;
+}
+section article{
+    margin-bottom: 5%;
+}

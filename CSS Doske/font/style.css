@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Charmonman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("Charmonman/Charmonman-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Charmonman";
+  font-style: normal;
+  font-weight: 700;
+  src: url("Charmonman/Charmonman-Bold.ttf");
+}
+
+body {
+  font-family: Charmonman, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.first {
+  font-weight: bold;
+}
+
+.second {
+  font-family: "Krub", sans-serif;
+  font-style: oblique;
+}
+
+.third {
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+
+.forth {
+  /* font-family: "Courier New", Courier, monospace; */
+}
+
+q {
+  padding-left: 30px;
+}
+
+.first q {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.second q {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.third q {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.forth q {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.third span {
+  font-weight: bold;
+  font-style: italic;
+}

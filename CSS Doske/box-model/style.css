@@ -1,0 +1,44 @@
+.first {
+  background-color: yellow;
+  max-width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.second {
+  background-color: red;
+  width: 600px;
+  max-height: 200px;
+  overflow: scroll;
+  visibility: hidden;
+}
+
+.third {
+  background-color: springgreen;
+}
+
+.forth {
+  background-color: steelblue;
+  display: none;
+}
+
+.fifth {
+  background-color: slateblue;
+}
+
+.sixth {
+  background-color: green;
+}
+
+.seventh {
+  background-color: royalblue;
+}
+
+h1 {
+  width: 960px;
+  background-color: #dba029;
+  text-align: center;
+  -webkit-box-shadow: 11px 17px 37px -1px rgba(163, 31, 163, 0.66);
+  -moz-box-shadow: 11px 17px 37px -1px rgba(163, 31, 163, 0.66);
+  box-shadow: 11px 17px 37px -1px rgba(163, 31, 163, 0.66);
+}
