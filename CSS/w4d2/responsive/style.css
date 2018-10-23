@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+}
+header {
+    margin: 3%;
+}
+header img {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding: 2%;
+
+}
+h1 {
+    text-align: center;
+    margin: 3%;
+
+}
+
+nav {
+    border: 1px solid gray;
+    border-radius: 3% 3% 0 0;
+    margin: 3% 0;
+}
+nav ul li {
+    list-style: none;
+    padding: 2%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+
+}
+nav ul li:hover {
+    background-color: #3698e9;
+    color: white;
+}
+
+nav ul li:hover a:visited {
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+}
+nav ul li a:link {
+   color: white;
+}
+nav ul li a:visited {
+    color: #3698e9;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+article {
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding: 2%;
+    margin: 3%;
+}
+article img {
+    width: 100%;
+}
+
+@media (min-width: 576px) { 
+    header {
+        position: relative;
+    }
+    h1 {
+        text-align: left;
+    }
+    nav {
+        position: absolute;
+        top: 1.5%;
+        right:0%;
+        width: 200px;
+        margin: 0;
+        border: 0px;
+        padding: 0px;
+    }
+    nav ul li {
+        display: inline;
+        border: 0px;
+        padding: 5%;
+    }
+    nav ul {
+        padding: 0px;
+    }
+    
+article img {
+    width: 35%;
+    float: left;
+    
+}
+article p {
+   float: left;
+   width: 65%;
+   padding: 3% 1%;
+   text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+ }
+
+
+ @media (min-width: 992px) {
+     
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+article {
+    width: 29%;
+    float: left;
+    margin: 2.1%;
+    border: 0px;
+}
+main {
+    margin: 0 auto;
+    padding: 1%;
+}
+ article img{
+     float: unset;
+     width: 100%;
+ }
+ article p {
+     float: unset;
+     width: 100%;
+ }
+
+
+}
