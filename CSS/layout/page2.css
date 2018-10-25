@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav {
+    padding: 5%;
+}
+
+nav h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: darkgray;
+}
+
+nav h1 span {
+    border: 3px solid darkgray;
+    border-right: none;
+    color: orange;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(2, 106, 124);
+}
+
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: rgb(0, 193, 241);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header {
+    background-image: url(./img/banner3.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h2 {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(9, 87, 177);
+    padding: 9px 25px;
+    border-radius: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    nav {
+        padding: 0;
+        padding-left: 20px;
+    }
+    nav h1 {
+        float: left;
+        color: white;
+    }
+    nav h1 span {
+        border-color: white;
+    }
+    nav ul {
+        width: auto;
+        float: right;
+        padding: 25px 10px 0 0;
+        background-color: transparent;
+    }
+    nav ul li {
+        display: inline;
+    }
+    header {
+        padding-top: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    div.clearfix {
+        height: 600px;
+    }
+    header h2 {
+        padding: 280px 0 20px;
+    }
+}
+
+main {
+    padding: 7%;
+}
+
+main section h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+main section h4 {
+    color: aqua;
+    padding: 20px 0 10px;
+}
+
+main section p {
+    padding: 10px 0;
+}
+
+main section ul {
+    list-style-image: url(./img/arrow_bullet.png);
+    padding-left: 22px;
+}
+
+main section ul li {
+    padding: 15px 0 0;
+}
+
+main section img {
+    display: inline-block;
+    margin: 30px 0px 0px 10px;
+    width: 100%;
+}
+
+main section div {
+    margin: 10px 0 10px 20px;
+    color: white;
+    background-color: rgb(62, 111, 245);
+}
+
+main section div img {
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid white;
+    width: 50px;
+}
+
+main section div h5 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 37px 0 5px 10px;
+    color: black;
+}
+
+main section div p {
+    margin-left: 10px;
+    color: white;
+}
+
+main section.contact div p {
+    margin-left: 10px;
+    color: white;
+    padding: 0px;
+}
+
+main section.contact div {
+    width: 50%;
+    height: 200px;
+    float: left;
+    margin: 0;
+}
+
+main section.contact div:nth-child(4) {
+    background-color: rgb(63, 91, 253);
+}
+
+main section.contact div:nth-child(3) {
+    background-color: rgb(253, 63, 142);
+}
+
+main section.contact div:nth-child(2) {
+    background-color: rgb(9, 196, 133);
+}
+
+main section.contact div:nth-child(5) {
+    background-color: rgb(175, 185, 238);
+}
+
+main section.contact div h4 {
+    color: white;
+    text-align: center;
+}
+
+main section.contact div p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+main section.contact div img {
+    border: none;
+    border-radius: unset;
+    width: 25px;
+}
+
+main section.contact div img.house {
+    width: inherit;
+    margin: 0 0 0 29%;
+}
+
+iframe {
+    width: 100%;
+}
+
+main section form input {
+    width: 32%;
+    padding: 5px;
+    margin: 3.5px;
+}
+
+main section form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main section form input:last-child {
+    color: white;
+    background-color: orange;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 44px;
+    width: auto;
+}
