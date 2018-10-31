@@ -1,0 +1,27 @@
+$whiteColor : white;
+
+nav.main-nav {
+    background: rgb(97, 97, 206);
+    a {
+        color: $whiteColor;
+        text-transform: uppercase;
+    }
+    button {
+        color: $whiteColor;
+        border: 1px solid white;
+    }
+
+}
+
+@media(min-width:768px){
+    nav.main-nav{
+        padding: 10px 70px;
+    }
+}
+
+@media(min-width:1200px){
+    nav.main-nav{
+        padding: 10px 150px;
+    }
+}
+

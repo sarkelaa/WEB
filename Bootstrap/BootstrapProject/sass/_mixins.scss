@@ -1,0 +1,9 @@
+
+@mixin widthAuto($width,$margin) {
+    width: $width;
+    margin: $margin;
+}
+@mixin  fontSizeAndWeight($size,$weight) {
+    font-size: $size;
+    font-weight: $weight;
+}

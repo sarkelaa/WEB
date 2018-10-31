@@ -1,0 +1,114 @@
+header div {
+  padding-top: 10px;
+  text-transform: uppercase; }
+header h1 {
+  font-size: 1.7em;
+  text-align: center; }
+header p {
+  text-align: center;
+  font-size: 0.8em; }
+header img {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 5em; }
+  header p {
+    font-size: 1.7em;
+    padding-bottom: 30px; }
+  header img {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: block; } }
+@media (min-width: 1200px) {
+  header img {
+    width: 40%;
+    margin: auto; }
+  header h1 {
+    font-size: 3em;
+    font-weight: bold; }
+  header p {
+    font-size: 1em;
+    font-weight: normal; } }
+nav.main-nav {
+  background: #6161ce; }
+  nav.main-nav a {
+    color: white;
+    text-transform: uppercase; }
+  nav.main-nav button {
+    color: white;
+    border: 1px solid white; }
+
+@media (min-width: 768px) {
+  nav.main-nav {
+    padding: 10px 70px; } }
+@media (min-width: 1200px) {
+  nav.main-nav {
+    padding: 10px 150px; } }
+section {
+  padding: 0px 40px 20px; }
+  section h2 {
+    color: black;
+    text-align: center;
+    padding-top: 25px; }
+  section img {
+    height: 100%;
+    width: 100%;
+    padding-top: 15px; }
+  @media (min-width: 1200px) {
+    section {
+      padding: 5px 150px; } }
+
+.aboutSection {
+  margin: 0;
+  background: #659965;
+  color: white;
+  padding-bottom: 40px; }
+  .aboutSection h2 {
+    color: white;
+    padding: 35px 0 25px;
+    font-size: 2em;
+    font-weight: bold; }
+  .aboutSection a {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 3px; }
+  @media (min-width: 768px) {
+    .aboutSection {
+      margin-top: 50px;
+      padding: 10px 100px 60px; } }
+  @media (min-width: 1200px) {
+    .aboutSection {
+      margin-top: 70px;
+      padding: 15px 250px 60px; } }
+
+section.form h2 {
+  margin-bottom: 20px; }
+section.form input {
+  border: none;
+  border-bottom: 1px solid #f7f7f7; }
+section.form textarea {
+  border: none;
+  max-width: 100%;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 5px 12px 45px; }
+section.form button {
+  margin-left: 20px;
+  background-color: #12b17c;
+  color: white;
+  padding: 5px 15px;
+  margin-bottom: 30px; }
+@media (min-width: 768px) {
+  section.form {
+    padding: 40px 100px; } }
+@media (min-width: 1200px) {
+  section.form {
+    padding: 40px 290px; } }
+
+/*# sourceMappingURL=main.css.map */
